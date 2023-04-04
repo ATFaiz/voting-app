@@ -1,0 +1,84 @@
+.ballot-card {
+    position: relative;
+    border: 1px solid black;
+    width: 250px;
+    height: 180px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.ballot-card .card-body {
+    margin-bottom: 30px;
+}
+
+.ballot-card .card-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.ballot-card .card-text {
+    margin-bottom: 3px;
+}
+
+.ballot-box {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.ballot-checkmark {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* Styling for the card container */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the card body */
+.card-body {
+    padding: 10px;
+}
+
+/* Styling for the card title */
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Styling for the card text */
+.card-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Styling for the ballot box */
+.ballot-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    margin-left: auto;
+}
+
+/* Styling for the ballot checkmark */
+.ballot-checkmark {
+    color: #007bff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
